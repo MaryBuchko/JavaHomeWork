@@ -27,7 +27,7 @@ public class Array {
             }
         }
         System.out.println("Количество элементов массива больше нуля: "+ num);
-        boolean isSorted = false;
+        boolean isSorted = false;  //сортирую по алгоритму пузырька
         int buf;
         while(!isSorted) {
             isSorted = true;
